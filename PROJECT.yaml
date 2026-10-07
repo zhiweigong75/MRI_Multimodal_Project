@@ -1,0 +1,26 @@
+project:
+  name: "PROJECT_NAME"
+  slug: "project_slug"
+  package: "project_name"
+  status: "planning"
+
+research:
+  objective: "TODO"
+  task: "TODO"
+  primary_outcome: "TODO"
+  modalities: []
+  datasets: []
+  source_domains: []
+  target_domains: []
+
+compute:
+  environment: "Pitt CRC"
+  scheduler: "Slurm"
+  default_partition: "TODO"
+  notes: "Do not run long or GPU-intensive jobs on login nodes."
+
+reproducibility:
+  experiment_id_format: "E%03d"
+  require_git_commit_for_formal_run: true
+  require_manifest: true
+  protect_dataset_splits: true

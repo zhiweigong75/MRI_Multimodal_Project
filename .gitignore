@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Credentials / secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Local project paths
+configs/local/paths.yaml
+
+# Data / medical imaging
+data/*
+!data/.gitkeep
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+
+# Generated experiment artifacts
+outputs/*
+!outputs/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+cache/*
+!cache/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Slurm logs
+*.out
+*.err
+slurm/logs/
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Temporary
+tmp/
+temp/

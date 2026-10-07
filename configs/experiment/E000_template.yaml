@@ -1,0 +1,22 @@
+experiment:
+  id: "E000"
+  name: "template_only"
+  formal: false
+
+data:
+  dataset: "TODO"
+  split: "TODO"
+  source_domain: null
+  target_domain: null
+
+model:
+  name: "TODO"
+
+training:
+  seed: 42
+  epochs: 1
+  batch_size: 1
+
+evaluation:
+  primary_metric: "TODO"
+  secondary_metrics: []

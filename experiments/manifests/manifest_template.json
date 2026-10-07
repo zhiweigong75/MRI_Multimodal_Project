@@ -1,0 +1,13 @@
+{
+  "experiment_id": "E000",
+  "git_commit": "TODO",
+  "config": "configs/experiment/E000_template.yaml",
+  "seed": 42,
+  "slurm_job_id": null,
+  "dataset": "TODO",
+  "split_id": "TODO",
+  "source_domain": null,
+  "target_domain": null,
+  "started_at": null,
+  "completed_at": null
+}

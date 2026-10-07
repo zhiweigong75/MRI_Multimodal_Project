@@ -1,0 +1,4 @@
+data_root: "/ix1/swu/USER/DATASET"
+output_root: "/ix1/swu/USER/PROJECT/outputs"
+checkpoint_root: "/ix1/swu/USER/PROJECT/checkpoints"
+cache_root: "/ix1/swu/USER/PROJECT/cache"

@@ -1,0 +1,6 @@
+scheduler: slurm
+partition: "TODO"
+cpus_per_task: 4
+mem_gb: 32
+gpus: 1
+time: "04:00:00"
